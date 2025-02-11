@@ -1,10 +1,10 @@
-# JFAT: A Heuristic Scheduling Algorithm for Deep
+# JFAT: A Heuristic Scheduling Algorithm for Deep Learning Jobs on Heterogeneous GPUs
  
 FAT is a scheduling algorithm guided by the FAT scheduling metric. It significantly improves GPU utilization and effectively reduces job completion time by comprehensively considering GPU heterogeneity, cluster load balancing, and job deadline (DDL) requirements.
 
 This repository contains the scheduler implementation and a heterogeneous GPU cluster simulator. The Kubernetes ported version is in another developing [repository](https://github.com/MLSched/UNS).
 
-## Highlights
+## Highlightss
 - **Optimizing GPU Utilization and JCT:** By considering GPU fragmentation and heterogeneity, we enhance fine-grained GPU utilization, reduce JCT, better utilize GPU resources, and improve service quality.
 - **Novel Scheduling Algorithm:** We propose a heuristic scheduling algorithm to find the optimal GPU and placement for deep learning jobs, leveraging heterogeneous GPU characteristics to optimize JCT and GPU utilization.
 - **DDL Mode:** To meet strict job DDL requirements, we introduce a DDL mode that users can enable to meet job deadlines, increasing scheduler flexibility.
